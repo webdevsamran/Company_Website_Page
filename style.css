@@ -1,0 +1,69 @@
+*{
+    transition: all 0.5s ease-in-out;
+}
+body {
+  font-family: "Arvo", serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  height: 30px;
+}
+.navbar-inverse {
+  background: rgba(0, 0, 0, 1);
+}
+.nav li {
+  color: #fff !important;
+  font-size: 19px;
+  margin-right: 35px;
+  padding: 10px 0px;
+}
+.nav li:hover {
+  border-bottom: 1px solid #00ffb8;
+  padding-bottom: 9px;
+  cursor: pointer;
+}
+.jumbotron {
+  background-color: transparent;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  letter-spacing: 2.5px;
+}
+.bodyImage {
+    height:100px;
+}
+.icons p{
+    font-size:17px;
+}
+.contact{
+    margin-top:30px;
+}
+.btn{
+    background-color:rgba(0,255,184,0.5);
+    color:#fff;
+    padding:16px;
+    border-radius:10px;
+    font-size:20px;
+    letter-spacing:1.5px;
+}
+.btn:hover{
+    background-color:rgba(0,255,184,1);
+    font-weight:bold;
+    color: #fff;
+}
+.footer{
+    background-color:rgba(0,255,184,1);
+    color:#fff;
+    padding:16px;
+    margin-top:20px;
+}
+.footer p{
+    line-height:20px;
+}
+@media (max-width:768px){
+    .bodyImage{
+        height:75px;
+    }
+}
